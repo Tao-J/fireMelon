@@ -17,5 +17,12 @@ Advanced requirements(The order you performing these tasks doesn't matter, aka, 
 
 * Change your avatar at github.com (fan qiang is required when accessing some web sites)
 
+* Install MacVim and intstall a vim plugin named "Vundle" to it.
+
+* Install git in Windows
+
+#Something you can try for fun within win8
+* Install Visio Studio 2012 Pro (Register an account at www.dreamspark.com using your @zju.edu.cn mail account, then you can download this version for free.)
+
 Good luck, and best wishes·~
 
