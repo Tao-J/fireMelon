@@ -1,0 +1,28 @@
+Here is the instructions and requirements for this "assignment":
+
+NOTE: You can refer to the file "how2use_git" written by me, or just perform some search to get hang of this.
+
+Check-points:
+
+1.Create a repository (repo) on github.com
+
+2.Put a Hello wolrd source file into that repo.
+
+
+Advanced requirements(The order you performing these tasks doesn't matter, aka, they are independant, )
+
+* Create a Makefile for that program and put it into that repo.
+
+* Use ssh to manage that repo rather than https
+
+* Change your avatar at github.com (fan qiang is required when accessing some web sites)
+
+* Install MacVim and intstall a vim plugin named "Vundle" to it.
+
+* Install git in Windows
+
+#Something you can try for fun within win8
+* Install Visio Studio 2012 Pro (Register an account at www.dreamspark.com using your @zju.edu.cn mail account, then you can download this version for free.)
+
+Good luck, and best wishes.~
+
