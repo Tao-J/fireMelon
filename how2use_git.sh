@@ -4,6 +4,7 @@
 2.Set user name
 	$git config --global user.name [your name]
 	$git config --global user.email [email]
+	$git config --global core.autocrlf true #Useful in windows
 
 3.Make working directory
 	mkdir and cd into it
