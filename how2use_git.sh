@@ -46,3 +46,19 @@
 #8.Additional notices running git in windows using msysgit
 	#the line ending pattern is quite an annoying issue
 	#I'm setting core.autocrlf = false
+
+9.Fileter branch
+git filter-branch -f --commit-filter '
+                GIT_AUTHOR_EMAIL="who@who.com";
+                GIT_COMMITTER_EMAIL="who@who.com";
+                git commit-tree "$@";'
+
+git filter-branch --commit-filter '
+   TREE="$1";
+   shift;
+   SUBTREE=`echo -e 040000 tree $TREE"\t$sub_dir_name" | git mktree`
+   git commit-tree $SUBTREE "$@"' -- --all
+
+git filter-branch --force --index-filter \
+    'git rm -r --cached --ignore-unmatch usaco/ ' \
+    --prune-empty --tag-name-filter cat -- --all
