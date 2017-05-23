@@ -9,9 +9,6 @@ alias vdir='ls --color=auto --format=long'
 # Interactive operation...
 alias rm='rm -i'
 
-alias sshview='ssh -C -L 5900:127.0.0.1:5900'
-alias sshproxy='ssh -C -D 1080'
-
 # Default to human readable figures
 alias df='df -h'
 alias du='du -h'
